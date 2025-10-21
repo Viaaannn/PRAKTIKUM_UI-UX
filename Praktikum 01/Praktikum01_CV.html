@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae Eka Nurviantoro</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Georgia', serif;
+        }    
+    
+        body {
+            background-color: #fff;
+            color: #000;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            position: relative;
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 40px 0 20px;
+            background-color: #fff;
+            border-radius: 0;
+            border-bottom: 2px solid #000000;  
+        }
+
+        .profile-photo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 120px;
+            height: 120px;
+            border-radius: 0;
+            border: 3px solid #000;
+            object-fit: cover;
+            background-color: #f5f5f5;
+        }
+
+        .profile-name {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #000;
+            font-weight: 700;
+            letter-spacing: 0px;
+        }
+
+        .profile-title {
+            font-size: 1.5rem;
+            color: #000;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .profile-description {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 0 10px;
+            color: #000;
+        }
+
+        section {
+            background-color: #fff;
+            margin-bottom: 30px;
+            padding: 25px;
+            border-radius: 0;
+            border: 1px solid #000;
+        }
+
+        h2 {
+            color: #000;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #000;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .skill-category {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .skill-category h3 {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            color: #000;
+            font-weight: 600;
+        }
+
+        .skill-list {
+            list-style-type: none;
+        }
+
+        .skill-list li {
+            padding: 8px 15px;
+            margin-bottom: 8px;
+            border-radius: 0;
+            margin-right: 8px;
+            background-color: #f5f5f5;
+            border: 1px solid #000;
+            display: inline-block;
+        }
+
+        .experience-item {
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .experience-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .experience-period {
+            color: #000;
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        .experience-title {
+            font-weight: bold;
+            color: #000;
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+        }
+
+        .experience-company {
+            font-style: italic;
+            margin-bottom: 10px;
+            color: #000;
+        }
+
+        .experience-description {
+            color: #000;
+        }
+
+        .experience-description p {
+            margin-bottom: 8px;
+        }
+
+        .hobbies {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .hobby-item {
+            background-color: #f5f5f5;
+            padding: 12px 20px;
+            border-radius: 0;
+            display: inline-block;
+            border: 1px solid #000;
+        }
+
+        .education-item {
+            margin-bottom: 20px;
+        }
+
+        .education-period {
+            color: #000;
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        .education-school {
+            font-weight: bold;
+            color: #000;
+            margin-bottom: 5px;
+            font-size: 1.1rem;
+        }
+
+        .education-major {
+            color: #000;
+        }
+        
+        /* Responsif */
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            
+            .profile-photo {
+                position: static;
+                margin: 0 auto 20px;
+                display: block;
+            }
+            
+            .profile-name {
+                font-size: 2rem;
+            }
+            
+            section {
+                padding: 20px;
+            }
+            
+            .skills-container {
+                flex-direction: column;
+            }
+            
+            .hobbies {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="eka_nurviantoro.jpeg" alt="Foto Eka Nurviantoro" class="profile-photo">
+            <h1 class="profile-name">Eka Nurviantoro</h1>
+            <p class="profile-title">Mahasiswa</p>
+            <p class="profile-description">
+                Memiliki bekal pendidikan di Pondok Pesantren Darul Akhyar, sehingga saya menjadi pribadi yang mandiri, disiplin, dan pekerja keras. Saya mempelajari bahasa asing yaitu bahasa Arab dan Inggris. Dan saya memiliki pengalaman dalam berorganisasi membuat saya mengerti bagaimana cara memimpin dan bertanggung jawab terhadap diri sendiri dan orang lain.
+            </p>
+        </header>
+        
+        <section id="keahlian">
+            <h2>Keahlian</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Administratif</h3>
+                    <ul class="skill-list">
+                        <li>Pengarsipan Dokumen</li>
+                        <li>Surat-menyurat</li>
+                        <li>Pembukuan Laporan Keuangan</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Teknis</h3>
+                    <ul class="skill-list">
+                        <li>Microsoft Office</li>
+                        <li>Email Administration</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Bahasa</h3>
+                    <ul class="skill-list">
+                        <li>Bahasa Indonesia</li>
+                        <li>Bahasa Inggris</li>
+                        <li>Bahasa Arab</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section id="pengalaman">
+            <h2>Pengalaman</h2>
+            <div class="experience-item">
+                <div class="experience-period">Juni 2022 – Juli 2023</div>
+                <div class="experience-title">Ketua Organisasi</div>
+                <div class="experience-company">Ikatan Santri Darul Akhyar (ISDA)</div>
+                <div class="experience-description">
+                    <p>Kepemimpinan dan Pengoordinasian: Memimpin, mengoordinasikan, dan mengendalikan seluruh kegiatan organisasi agar berjalan dengan baik dan efisien.</p>
+                    <p>Manajemen Anggota: Memaksimalkan potensi seluruh anggota pengurus, serta memelihara keutuhan dan kekompakan tim.</p>
+                    <p>Laporan Pertanggungjawaban: Menyusun dan menyampaikan laporan tahunan atas pelaksanaan tugas dan tanggung jawabnya kepada anggota organisasi.</p>
+                </div>
+            </div>
+            <div class="experience-item">
+                <div class="experience-period">Juli 2024 – Januari 2025</div>
+                <div class="experience-title">Customer Service</div>
+                <div class="experience-company">Restoran Ta Wan</div>
+                <div class="experience-description">
+                    <p>Memberikan informasi tentang produk dan layanan.</p>
+                    <p>Membangun hubungan baik dengan pelanggan.</p>
+                    <p>Menjawab pertanyaan dan menyelesaikan masalah pelanggan</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="pendidikan">
+            <h2>Pendidikan</h2>
+            <div class="education-item">
+                <div class="education-period">2020 - 2023</div>
+                <div class="education-school">MA Al-Ittihad</div>
+                <div class="education-major">Pondok Pesantren Darul Akhyar</div>
+            </div>
+        </section>
+        
+        <section id="hobi">
+            <h2>Hobi & Aktivitas</h2>
+            <div class="hobbies">
+                <div class="hobby-item">Travelling</div>
+                <div class="hobby-item">Olahraga</div>
+                <div class="hobby-item">Game</div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
