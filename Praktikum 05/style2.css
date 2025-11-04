@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  font-family: sans-serif;
+}
+
+.box1 {
+  background-color: lightgreen;
+  height: 60px;
+  margin: 10px;
+  border: 1px solid #666;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.small {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #666;
+  margin-right: 10px;
+}
+
+.large {
+  flex: 1;
+  height: 80px;
+  border: 1px solid #666;
+}
+
+.yellow {
+  background-color: #fff34d;
+}
+
+.orange {
+  background-color: #ff6d1b;
+}
+
+.blue {
+  background-color: #4dd8ff;
+}
