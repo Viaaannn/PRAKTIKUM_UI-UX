@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UMKM Kopi Nusantara</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS Custom -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Kopi Nusantara</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cabang.html">Cabang</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="booking.html">Booking</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Header -->
+<header class="header text-center">
+  <h1>Selamat Datang di Kopi Nusantara</h1>
+  <p>Kopi lokal terbaik dari petani Indonesia</p>
+</header>
+
+<!-- Slider -->
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://via.placeholder.com/1200x400" class="d-block w-100" alt="Slider Kopi">
+    </div>
+    <div class="carousel-item">
+      <img src="https://via.placeholder.com/1200x400" class="d-block w-100" alt="Slider Kopi">
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<!-- Produk -->
+<section class="container my-5">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Kopi Arabika">
+        <div class="card-body">
+          <h5 class="card-title">Kopi Arabika</h5>
+          <p class="card-text">Aroma wangi dan rasa seimbang.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Kopi Robusta">
+        <div class="card-body">
+          <h5 class="card-title">Kopi Robusta</h5>
+          <p class="card-text">Rasa kuat dan khas.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://via.placeholder.com/300" class="card-img-top" alt="Kopi Blend">
+        <div class="card-body">
+          <h5 class="card-title">Kopi Blend</h5>
+          <p class="card-text">Perpaduan terbaik.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tabel Harga -->
+<section class="container my-5">
+  <h2 class="text-center">Daftar Harga</h2>
+  <table class="table table-bordered">
+    <thead class="table-dark">
+      <tr>
+        <th>Paket</th>
+        <th>Harga</th>
+        <th>Berat</th>
+        <th>Deskripsi</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Basic</td><td>Rp50.000</td><td>250gr</td><td>Kopi pilihan</td></tr>
+      <tr><td>Premium</td><td>Rp90.000</td><td>500gr</td><td>Kualitas terbaik</td></tr>
+      <tr><td>Eksklusif</td><td>Rp170.000</td><td>1kg</td><td>Kopi spesial</td></tr>
+      <tr><td>Hemat</td><td>Rp45.000</td><td>200gr</td><td>Ekonomis</td></tr>
+      <tr><td>Gift</td><td>Rp120.000</td><td>500gr</td><td>Kemasan premium</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- Kontak -->
+<section class="kontak">
+  <div class="container">
+    <h2>Kontak Kami</h2>
+    <form>
+      <div class="mb-3">
+        <label>Nama</label>
+        <input type="text" class="form-control">
+      </div>
+      <div class="mb-3">
+        <label>Email</label>
+        <input type="email" class="form-control">
+      </div>
+      <div class="mb-3">
+        <label>Pesan</label>
+        <textarea class="form-control"></textarea>
+      </div>
+      <button class="btn btn-primary">Kirim</button>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer text-center">
+  © 2025 Kopi Nusantara
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+  background-color: #f8f9fa;
+  padding: 60px 20px;
+}
+
+/* Kontak */
+.kontak {
+  background-color: #f1f1f1;
+  padding: 50px 0;
+}
+
+/* Footer */
+.footer {
+  background-color: #212529;
+  color: white;
+  padding: 15px;
+}
